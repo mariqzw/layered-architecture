@@ -4,11 +4,11 @@ import java.time.LocalDate;
 import java.util.UUID;
 
 public class Product {
-    public UUID id;
-    public String name;
-    public LocalDate expirationDate;
-    public String unitMeasure;
-    public int quantity;
+    private UUID id;
+    private String name;
+    private LocalDate expirationDate;
+    private String unitMeasure;
+    private int quantity;
 
     public Product(UUID id, String name, LocalDate expirationDate, String unitMeasure, int quantity) {
         this.id = id;
